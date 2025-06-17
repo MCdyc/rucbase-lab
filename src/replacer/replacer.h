@@ -14,9 +14,11 @@ See the Mulan PSL v2 for more details. */
 
 /**
  * Replacer is an abstract class that tracks page usage.
+ * Replacer 是一个抽象类，用于跟踪页面使用情况。
  */
-class Replacer {
-   public:
+class Replacer
+{
+  public:
     Replacer() = default;
     virtual ~Replacer() = default;
 
